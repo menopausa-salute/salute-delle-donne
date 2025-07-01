@@ -11,7 +11,7 @@ Se anche tu stai vivendo qualcosa di simile, o semplicemente vuoi capire meglio 
 ---
 
 **🌐 Sito web:**  
-[Parliamo di menopausa Blog](https://menopausa-salute.github.io/salute-delle-donne/)
+[Parliamo di menopausa](https://menopausa-salute.github.io/salute-delle-donne/)
 
 **📩 Contatto:**  
 angelinamarra.marra@gmail.com

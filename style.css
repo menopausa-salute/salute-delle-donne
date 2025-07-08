@@ -1,155 +1,148 @@
-        :root {
-            --lavanda: #9B8ABF;
-            --albicocca: #FFB347;
-            --ulivo: #808000;
-            --marmo: #E0DCD5;
-            --terracotta: #E2725B;
-            --blu-notte: #1A3A8F;
-            --prugna: #6A0DAD;
-        }
-
-        body {
-            font-family: 'Merriweather', serif;
-            background-color: #FFF9F5;
-            color: #555;
-            line-height: 1.8;
-            margin: 0;
-            padding: 0;
-            background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M30,50 Q50,30 70,50 T90,50" fill="none" stroke="%23E2725B20" stroke-width="0.5"/></svg>');
-            background-size: 120px;
-        }
-
-        header {
-            background: linear-gradient(135deg, #b78da8, #612e4e);
-            color: white;
-            padding: 1.1rem 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-
-        h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3rem;
-            font-weight: 700;
-            margin: 0;
-            letter-spacing: 1px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-
-        .sottotitolo {
-            font-style: italic;
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-top: 0.5rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .contenitore {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        .articolo-principale {
-            background: white;
-            border-radius: 8px;
-            padding: 3rem;
-            margin-bottom: 3rem;
-            box-shadow: 0 5px 25px rgba(0,0,0,0.05);
-            border-top: 4px solid #b2b2b2;
-        }
-
-        h2 {
-            color: #bc7195;
-            font-family: 'Playfair Display', serif;
-            font-size: 2.3rem;
-            margin-top: 0;
-            padding-bottom: 0.5rem;
-			text-align: center;
-        }
-		h3 {
-
-    font-family: 'Playfair Display', serif;
-    color: #434343;
-    padding-bottom: 0.5rem;
-    font-size: 1.6rem; 
-    font-weight: 600;
-    margin: 0 0 1rem 0;
-    
-    /* Плавный переход при наведении */
-    transition: all 0.3s ease;
+:root {
+    --lavanda: #9B8ABF;
+    --albicocca: #FFB347;
+    --ulivo: #808000;
+    --marmo: #E0DCD5;
+    --terracotta: #E2725B;
+    --blu-notte: #1A3A8F;
+    --prugna: #6A0DAD;
 }
 
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #FFF9F5;
+    color: #555;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M30,50 Q50,30 70,50 T90,50" fill="none" stroke="%23E2725B20" stroke-width="0.5"/></svg>');
+    background-size: 120px;
+}
 
-        /* Стиль для списка статей */
-        .lista-articoli {
-            background: #eae5de;
-            padding: 2rem;
-            border-radius: 8px;
-            margin: 3rem 0;
-        }
+/* Header */
+header {
+    background: linear-gradient(135deg, #b78da8, #612e4e);
+    color: white;
+    padding: 2.3rem 0 1.3rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 3px 30px rgba(110, 60, 120, 0.10);
+}
 
-        .lista-articoli ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            columns: 2;
-            column-gap: 2rem;
-        }
+/* Заголовок блога */
+header span {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 9px rgba(60,10,80,0.08);
+    margin-bottom: 0.25em;
+    color: #dedad1;
+    /* плавная тень */
+}
 
-        .lista-articoli li {
-            margin-bottom: 1.2rem;
-            position: relative;
-            padding-left: 2rem;
-            break-inside: avoid;
-        }
+/* Слоган под заголовком */
+.sottotitolo {
+    font-style: italic;
+    font-size: 1.3rem;
+    opacity: 0.9;
+    margin-top: 0.4rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        .lista-articoli li:before {
-            content: "•";
-            color: #4a62a2;
-            font-size: 2.5rem;
-            position: absolute;
-            left: 0;
-			top: -15px;
-        }
+/* Контейнер основного контента */
+.contenitore {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
 
-        .lista-articoli a {
-            color: #505050;
-            text-decoration: none;
-            transition: all 0.3s;
-            font-weight: 500;
-            display: inline-block;
-            padding: 0.3rem 0;
-			font-size: 18px;
-            border-bottom: 1px solid transparent;
-        }
+.articolo-principale {
+    background: white;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.06);
+    border-top: 4px solid #bc7195;
+}
 
-        .lista-articoli a:hover {
-            color: #4a62a2;
-            border-bottom: 1px dotted #4a62a2;
-            transform: translateX(5px);
-        }
+/* h1: основной заголовок статьи */
+.articolo-principale h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: #646465;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin: 0 0 2.2rem 0;
+    line-height: 1.2;
+    text-shadow: 0 1.5px 0 #ede1ea;
+}
 
-        footer {
-            background: linear-gradient(to right, #c7afbf, #4a62a2);
-            color: white;
-            padding: 1.2rem 0;
-            text-align: center;
-            margin-top: 1.2rem;
-        }
+@media (max-width: 600px) {
+    .articolo-principale h1 {
+        font-size: 1.9rem;
+        margin-bottom: 1.3rem;
+    }
+}
 
-        @media (max-width: 768px) {
-            .lista-articoli ul {
-                columns: 1;
-            }
-            
-            h1 {
-                font-size: 2.2rem;
-            }
-        }
+/* h2: подзаголовки внутри статьи */
+.articolo-principale h2 {
+    color: #bc7195;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.45rem;
+    margin-top: 2.1rem;
+    margin-bottom: 1.1rem;
+	line-height: 30px;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-left: 4px solid #bc7195;
+    padding-left: 0.85rem;
+    background: linear-gradient(90deg,#fce4ec 55%,#fff9f5 100%);
+    display: block;
+}
+
+.articolo-principale p {
+    margin: 0 0 1.5em 0;
+    font-size: 1.09rem;
+    line-height: 1.8;
+}
+
+.articolo-principale h2 + p {
+    margin-top: 0.2em;
+}
+
+/* Для мобильных: уменьшить отступы и размеры */
+@media (max-width: 768px) {
+    header {
+        padding: 1.4rem  0.8rem ;
+    }
+    header span {
+        font-size: 2.8rem;
+		line-height: 35px;
+    }
+    .contenitore {
+        padding: 1rem;
+    }
+    .articolo-principale {
+        padding: 1.2rem 0.7rem;
+    }
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #c7afbf, #4a62a2);
+    color: white;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+}

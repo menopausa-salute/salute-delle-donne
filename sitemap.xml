@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://menopausa-salute.github.io/salute-delle-donne</loc>
+    <loc>https://menopausa-salute.github.io/salute-delle-donne/index.html</loc>
   </url>
   <url>
     <loc>https://menopausa-salute.github.io/salute-delle-donne/benvenuta.html</loc>
   </url>
   <url>
     <loc>https://menopausa-salute.github.io/salute-delle-donne/insonnia-menopausa-esperienza.html</loc>
+  </url>
+  <url>
+    <loc>https://menopausa-salute.github.io/salute-delle-donne/rimedi-vampate-calore.html</loc>
   </url>
 </urlset>

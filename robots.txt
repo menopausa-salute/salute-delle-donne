@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://menopausa-salute.github.io/salute-delle-donne/sitemap.xml
